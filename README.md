@@ -27,7 +27,7 @@ Before running the project, make sure you have the following dependencies instal
 - **Chroma**: Install using pip
 - 
 ## Running the Project
-To run the project, execute the following command:
+To run the project, create a .env file and insert "OPENAI_API_KEY=<key>" and execute the following command:
 
 ```bash
 uvicorn main:app --reload
